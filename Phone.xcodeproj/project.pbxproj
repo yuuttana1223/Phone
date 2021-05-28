@@ -13,6 +13,7 @@
 		CA4416752660C23F00830F79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA4416732660C23F00830F79 /* Main.storyboard */; };
 		CA4416772660C24200830F79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA4416762660C24200830F79 /* Assets.xcassets */; };
 		CA44167A2660C24200830F79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA4416782660C24200830F79 /* LaunchScreen.storyboard */; };
+		CA4416842660D84900830F79 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4416832660D84900830F79 /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CA4416762660C24200830F79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA4416792660C24200830F79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA44167B2660C24200830F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA4416832660D84900830F79 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				CA44166D2660C23F00830F79 /* AppDelegate.swift */,
 				CA44166F2660C23F00830F79 /* SceneDelegate.swift */,
 				CA4416712660C23F00830F79 /* ViewController.swift */,
+				CA4416832660D84900830F79 /* NextViewController.swift */,
 				CA4416732660C23F00830F79 /* Main.storyboard */,
 				CA4416762660C24200830F79 /* Assets.xcassets */,
 				CA4416782660C24200830F79 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA4416722660C23F00830F79 /* ViewController.swift in Sources */,
+				CA4416842660D84900830F79 /* NextViewController.swift in Sources */,
 				CA44166E2660C23F00830F79 /* AppDelegate.swift in Sources */,
 				CA4416702660C23F00830F79 /* SceneDelegate.swift in Sources */,
 			);
@@ -295,7 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.ac.kcg.E20C4065.Phone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +317,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.ac.kcg.E20C4065.Phone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
