@@ -37,7 +37,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="tap1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sMu-GK-MtK"/>
+                                    <action selector="tap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wqu-OC-SZ4"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l9g-sK-QRy">
@@ -54,7 +54,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="tap2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W3G-TF-Vzs"/>
+                                    <action selector="tap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="35v-kJ-GUn"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HbH-OO-JmD">
@@ -71,7 +71,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="tap3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aE5-S4-U87"/>
+                                    <action selector="tap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T6R-Ze-0Hy"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GJu-uj-ocw">
@@ -88,7 +88,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="tap4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pa3-wo-60m"/>
+                                    <action selector="tap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oj1-4a-Hx3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XC7-Bi-nax">
@@ -105,7 +105,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="tap5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P9X-ja-hUK"/>
+                                    <action selector="tap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Coa-py-qUS"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XEU-J3-qh5">
@@ -122,7 +122,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="tap6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vxt-vK-3SZ"/>
+                                    <action selector="tap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2i6-bG-x2Z"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NiW-ZX-gBM">
@@ -139,7 +139,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="tap7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nt3-3G-7Ne"/>
+                                    <action selector="tap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="05l-FM-5RF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cAE-0s-vhK">
@@ -156,7 +156,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="tap8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n1J-Xu-dET"/>
+                                    <action selector="tap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KWL-IB-3tX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fps-k5-z3j">
@@ -173,7 +173,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="tap9:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yJ3-pG-7CZ"/>
+                                    <action selector="tap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AhD-j9-6mN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="evA-Qe-zax">
@@ -190,7 +190,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="tapAstrisk:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KbG-UD-9q4"/>
+                                    <action selector="tap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ycG-Xn-33c"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZJe-5Z-TaY">
@@ -207,7 +207,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="tap0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QuJ-aR-Blw"/>
+                                    <action selector="tap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jgq-uC-jbB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gTT-tK-tEP">
@@ -224,7 +224,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="tapHash:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PFF-GS-ceH"/>
+                                    <action selector="tap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6S9-oL-5F7"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f4H-jn-SYY">
