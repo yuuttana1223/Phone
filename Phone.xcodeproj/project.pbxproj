@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA31335A26662B0A000909F6 /* iPodTouch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA31335926662B0A000909F6 /* iPodTouch.storyboard */; };
 		CA44166E2660C23F00830F79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA44166D2660C23F00830F79 /* AppDelegate.swift */; };
 		CA4416702660C23F00830F79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA44166F2660C23F00830F79 /* SceneDelegate.swift */; };
 		CA4416722660C23F00830F79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4416712660C23F00830F79 /* ViewController.swift */; };
@@ -14,9 +15,12 @@
 		CA4416772660C24200830F79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA4416762660C24200830F79 /* Assets.xcassets */; };
 		CA44167A2660C24200830F79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA4416782660C24200830F79 /* LaunchScreen.storyboard */; };
 		CA4416842660D84900830F79 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4416832660D84900830F79 /* NextViewController.swift */; };
+		CAF223DE26661223001502B1 /* iPhoneSE.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF223DD26661223001502B1 /* iPhoneSE.storyboard */; };
+		CAF223E126661B11001502B1 /* iPhone8plus.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF223E026661B11001502B1 /* iPhone8plus.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA31335926662B0A000909F6 /* iPodTouch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPodTouch.storyboard; sourceTree = "<group>"; };
 		CA44166A2660C23F00830F79 /* Phone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA44166D2660C23F00830F79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA44166F2660C23F00830F79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +30,8 @@
 		CA4416792660C24200830F79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA44167B2660C24200830F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA4416832660D84900830F79 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		CAF223DD26661223001502B1 /* iPhoneSE.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPhoneSE.storyboard; sourceTree = "<group>"; };
+		CAF223E026661B11001502B1 /* iPhone8plus.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPhone8plus.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +45,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA31335826662A8A000909F6 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CA4416732660C23F00830F79 /* Main.storyboard */,
+				CAF223E026661B11001502B1 /* iPhone8plus.storyboard */,
+				CAF223DD26661223001502B1 /* iPhoneSE.storyboard */,
+				CA31335926662B0A000909F6 /* iPodTouch.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
 		CA4416612660C23E00830F79 = {
 			isa = PBXGroup;
 			children = (
@@ -60,14 +77,22 @@
 			children = (
 				CA44166D2660C23F00830F79 /* AppDelegate.swift */,
 				CA44166F2660C23F00830F79 /* SceneDelegate.swift */,
-				CA4416712660C23F00830F79 /* ViewController.swift */,
-				CA4416832660D84900830F79 /* NextViewController.swift */,
-				CA4416732660C23F00830F79 /* Main.storyboard */,
+				CAF223DB266611E9001502B1 /* Controller */,
+				CA31335826662A8A000909F6 /* Storyboard */,
 				CA4416762660C24200830F79 /* Assets.xcassets */,
 				CA4416782660C24200830F79 /* LaunchScreen.storyboard */,
 				CA44167B2660C24200830F79 /* Info.plist */,
 			);
 			path = Phone;
+			sourceTree = "<group>";
+		};
+		CAF223DB266611E9001502B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CA4416712660C23F00830F79 /* ViewController.swift */,
+				CA4416832660D84900830F79 /* NextViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,7 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA44167A2660C24200830F79 /* LaunchScreen.storyboard in Resources */,
+				CAF223E126661B11001502B1 /* iPhone8plus.storyboard in Resources */,
+				CAF223DE26661223001502B1 /* iPhoneSE.storyboard in Resources */,
 				CA4416772660C24200830F79 /* Assets.xcassets in Resources */,
+				CA31335A26662B0A000909F6 /* iPodTouch.storyboard in Resources */,
 				CA4416752660C23F00830F79 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
